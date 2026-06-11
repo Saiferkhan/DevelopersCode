@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 public class DataProvider_Example {
 	WebDriver driver;	
 	@BeforeMethod
-	public void browserLaunching() { //method
+	public void browserLaunching() { 
 		
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
