@@ -5,7 +5,9 @@
     <classes>
       <class name="testNG_demo.DataProvider_Example">
         <methods>
+          <include name="browserLaunching"/>
           <include name="loginTest" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- testNG_demo.DataProvider_Example -->
     </classes>

@@ -4,14 +4,16 @@ import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 
-public class DataProvider_Example {
+public class DataProvider_Example {//method
 	WebDriver driver;	
 	@BeforeMethod
 	public void browserLaunching() { 
@@ -28,6 +30,9 @@ public class DataProvider_Example {
 		driver.findElement(By.name("username")).sendKeys(user);
 		driver.findElement(By.name("password")).sendKeys(pass);
 		driver.findElement(By.tagName("button")).click();
+		
+		WebElement pics=driver.findElement(By.xpath("//img[contains(@src,\"index.php/pim/viewPhoto/empNumber/7\")]"));
+		Assert.assertEquals(pics.isDisplayed(), "login successfull");
 	}
 	
 	
