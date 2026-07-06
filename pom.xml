@@ -47,12 +47,14 @@
     <version>7.34.3</version>
     <scope>test</scope>
 </dependency>
-<!-- Source: https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+
+
+<!-- Source: https://mvnrepository.com/artifact/com.google.genai/google-genai -->
 <dependency>
-    <groupId>org.junit.jupiter</groupId>
-    <artifactId>junit-jupiter-api</artifactId>
-    <version>6.1.0</version>
-    <scope>test</scope>
+    <groupId>com.google.genai</groupId>
+    <artifactId>google-genai</artifactId>
+    <version>1.58.0</version>
+    <scope>compile</scope>
 </dependency>
 
   <dependency>
