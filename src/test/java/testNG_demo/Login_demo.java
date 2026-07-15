@@ -32,7 +32,7 @@ public class Login_demo {
 		driver.get(url);
 	}
 	}
-
+//test
 	@Test(groups="smoke",priority=1)
 	public void enterCredentials() {
 		
