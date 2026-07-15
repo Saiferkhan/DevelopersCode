@@ -45,7 +45,7 @@ public class Login_demo {
 		
 		driver.findElement(By.xpath("//button[text()=\" Login \"]")).click();
 	}
-	//testing
+	
 	@AfterClass
 	@Test(groups="regression",priority=3)
 	public void tearDown() {
