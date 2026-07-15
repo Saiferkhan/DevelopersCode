@@ -19,7 +19,7 @@ pipeline {
             steps {
                 dir('API_Framework') {
                     git branch: 'main',
-                        url: 'https://github.com/Saiferkhan/API_Framework'
+                        url: 'https://github.com/Saiferkhan/API_Framework.git'
                 }
             }
         }
