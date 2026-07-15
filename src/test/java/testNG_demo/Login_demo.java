@@ -24,7 +24,7 @@ public class Login_demo {
 		driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(10));
 		driver.get(url);
 	}
-	
+	//test
 	else if(browser.equalsIgnoreCase("edge")) {
 		driver =new EdgeDriver();
 		driver.manage().window().maximize();
