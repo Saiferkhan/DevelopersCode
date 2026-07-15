@@ -13,7 +13,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 
-public class DataProvider_Example {//method
+public class DataProvider_Example {//methods
 	WebDriver driver;	
 	@BeforeMethod
 	public void browserLaunching() { 
